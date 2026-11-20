@@ -1,0 +1,19 @@
+{
+  "name": "Porcelain Skin Clinic",
+  "description": "Clinical-calm skin clinic in porcelain tones, with treatments, results and a consultation process.",
+  "tech": "next",
+  "type": "skin",
+  "style": "clinic",
+  "internal": false,
+  "components": [
+    "support-form"
+  ],
+  "configFile": "site.config.json",
+  "screenshots": {
+    "light": "jamstacks/home-light.jpg",
+    "dark": "jamstacks/home-dark.jpg",
+    "theme": {
+      "strategy": "media"
+    }
+  }
+}

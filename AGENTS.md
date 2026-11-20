@@ -17,8 +17,16 @@ The `.claude/skills/` folder holds `write-plan` (drafts `plan/PLAN.md`) and `cle
 
 ## Structure and content
 
-`content/business.ts` holds the starter's shared business details and sample copy. When building a
-site, write page-specific copy directly in the route's `app/**/page.tsx` as JSX children of named React
+File ownership in this site:
+- `content/business.ts`: clinic name, email, phone, Marylebone address, landmark, weekly `OpeningHours`, clinicians and Contact guidance.
+- `content/concerns.ts`: the six skin concerns (`acne`, `redness`, `pigmentation`, `texture`, `dehydration`, `ageing`).
+- `content/treatments.ts`: dispensary ledger entries (prices, sessions, downtime, patch tests, availability and notes).
+- `content/results.ts`: anonymised case notes with Fitzpatrick skin types, clinician-graded 0–10 measures and consent flags.
+- `content/validation.ts`: actionable validation helpers with item-specific errors.
+- `app/page.tsx`, `app/treatments/page.tsx`, `app/results/page.tsx`, `app/consultation/page.tsx`, `app/contact/page.tsx`, `app/not-found.tsx`: page-specific headings, prose, labels and section composition as JSX children of named components in `components/`.
+- `components/art/*` and `components/glaze-gauge.tsx`: themed inline-SVG artwork and signature glaze gauge.
+
+When editing this site, write page-specific copy directly in the route's `app/**/page.tsx` as JSX children of named React
 components. Put headings, calls to action, labels and captions in page order. Backing components
 own the semantic markup, Tailwind styles, accessibility and behavior. Keep typed data in `content/`
 for values the site reads programmatically, including contact details and structured collections.

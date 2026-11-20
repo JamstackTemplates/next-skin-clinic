@@ -1,0 +1,22 @@
+{
+  "templateId": "next-skin-clinic",
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "fullPage": false,
+  "captures": [
+    {
+      "mode": "light",
+      "sha256": "6d07d42d6ccec29555fa4f063d6190db573d08c954283bc784daf6cb369f6723",
+      "file": "jamstacks/home-light.jpg",
+      "bytes": 117290
+    },
+    {
+      "mode": "dark",
+      "sha256": "4c228b41fc90d95aca2ce667fe945a817cf2d58ff2ab57316dd3bd74eb46635f",
+      "file": "jamstacks/home-dark.jpg",
+      "bytes": 118448
+    }
+  ]
+}

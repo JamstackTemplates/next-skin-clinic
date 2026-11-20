@@ -1,1 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="#2457a7"/><path d="M17 20h30v24H17zM24 14v36M40 14v36" fill="none" stroke="#fff" stroke-width="4"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="10" fill="#F5F4F0" />
+  <rect x="4" y="4" width="56" height="56" rx="7" fill="none" stroke="#2B4A8B" stroke-width="1.5" />
+  <!-- Lidded apothecary jar silhouette -->
+  <circle cx="32" cy="12" r="3" fill="#2B4A8B" />
+  <path d="M22 18 C22 15.5 26 14 32 14 C38 14 42 15.5 42 18 Z" fill="#2B4A8B" />
+  <rect x="24" y="19" width="16" height="4" rx="1" fill="#2B4A8B" />
+  <path d="M23 23 C19 25 18 29 18 33 L18 50 C18 52.5 20 54 23 54 L41 54 C44 54 46 52.5 46 50 L46 33 C46 29 45 25 41 23 Z" fill="#2B4A8B" />
+  <!-- Glaze sheen crescent & cartouche -->
+  <path d="M23 29 C21.5 34 21.5 42 23 47" fill="none" stroke="#F5F4F0" stroke-width="2" stroke-linecap="round" />
+  <rect x="26" y="33" width="13" height="10" rx="1.5" fill="#F5F4F0" />
+  <path d="M28.5 38 H36.5" stroke="#2B4A8B" stroke-width="1.6" stroke-linecap="round" />
+</svg>
